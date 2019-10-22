@@ -1,0 +1,29 @@
+#palindrom
+k=input("string yaz:")
+l=len(k)
+a=0
+b=0
+m=l-1
+for a in range(0,len(k)):
+
+  if k[m]==k[a]:
+    b=b+1
+  m=m-1
+
+if b==l:
+  print("palindromdur")
+else:
+  print("değil")
+(TAYFUN)
+
+
+
+
+
+#Palindrom olup olmamasına bakar.
+k=input("string yazınız:")
+if k==k[::-1]:
+  print("palindromdur")
+else:
+  print("palindrom değildir.")
+(YAREN)
